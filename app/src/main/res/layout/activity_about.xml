@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sadjang.codepenal.About">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/arnaud"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp">
+
+            <TextView
+                android:id="@+id/nom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Arnaud NGABGNA (Arthur Bios)"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:text="(237) 695 627 379 / 673 005 451"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/mail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mikarno2@gmail.com"
+                android:textColor="#001b7c"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/achille"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp">
+
+            <TextView
+                android:id="@+id/nom1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Achille sadjang (Avom)"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/contact1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:text="(237) 695 627 379 / 673 005 451"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/mail1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sadjanga@gmail.com"
+                android:textColor="#001b7c"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/remerciement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Remerciements"
+            android:textStyle="bold|italic"
+            android:singleLine="false"
+            android:gravity="center_horizontal"
+            android:textColor="@color/accent_material_light"
+            android:textSize="15sp"
+            android:typeface="serif"
+            android:visibility="visible" />
+        <TextView
+            android:id="@+id/remer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/remerciements_notes"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Code Penal</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="menu_1">Apropos</string>
+    <string name="menu_2">seting</string>
+    <string name="searh">Search</string>
+    <string name="jouer">Jouer</string>
+    <string name="annuler">Annuler</string>
+    <string name="remerciements_notes"><b>JUKER ENTERPRISE</b> "TIENT A REMERCIER L'ENSEMBLE DES PERSONNES QUI ONT BIEN VOULU PARTICIPER A L'OPERATION EN FOURNISSANT DONNEES, ANALYSES ET POINTS DE VUE.
+        "<b>(FAMILLE NGABGNA, MBOUYIM, KONMEGNE, CHEKEM, NZOUDA, DIME JB)</b>.
+NEANMOINS, LES INFORMATIONS ET RESULTATS PRESENTES CI-APRES RELEVENT DE LA SEULE RESPONSABILITE DE <b>JUKER ENTERPRISE</b>
+        "ET NE SAURAIENT ENGAGER LES PERSONNES AYANT APPORTE LEUR CONCOURS A L'OPERATION.  TOUTE FOIS IL SERAIS POSSIBLE QUE CERTAIN TEXTE SOIT LEGEREMENT ENDOMAGE DU AU ERREURS HUMAINES"
+</string>
+    <string name="activation">Activation Du Logiciel</string>
+    <string name="server_adresse">\"Entrez le numéro du point d\'achat pour activations!!!\"</string>
+    <string name="hint_server">Numero vendeur: </string>
+    <string name="info_server">"\" Si vous n\'avez pas pue contacter un vendeur contacter l\'équipe technique  directement au numéro "<b>695627379</b> ou <b>673005451</b> pour l\'activation de votre produit \"</string>
+    <string name="article">Articles</string>
+    <string name="somaire">somaire</string>
+    <string name="detail">detail</string>
+    <string name="Appropos">A propos</string>
+    <string name="devise">PAIX TRAVAIL PATRIE</string>
+    <string name="advert">L\'activation du logiciel vous coutera <i><b>300FCFA XAF</b></i></string>
+    <string name="proverbes_arn">"TOUT CE QUE TA MAIN TROUVE A FAIRE AVEC TA FORCE, FAIS-LE; CAR IL N'Y
+A NI OEUVRE, NI PENSEE, NI SCIENCE, NI SAGESSE,DANS LE SEJOUR DES MORTS, OU TU VAS. ECCLESIASTE 9 : 10"
+</string>
+
+</resources>
